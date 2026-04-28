@@ -1,22 +1,25 @@
 package com.tests;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class demolistener implements ITestListener {
+	 private static final Logger log = LogManager.getLogger(demolistener.class);
 
 	public void onTestStart(ITestResult result) {
-		System.out.println(result.getName() + " test started");
+		 log.info(result.getName() + " test started");
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		System.out.println("Test PASSED: " + result.getName());
+		 log.info("Test PASSED: " + result.getName());
 	}
 
 	public void onTestFailure(ITestResult result) {
-		System.out.println("Test FAILED: " + result.getName());
+		 log.error("Test FAILED: " + result.getName());
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		System.out.println("Test SKIPPED: " + result.getName());
+		log.warn("Test SKIPPED: " + result.getName());
 	}
 }

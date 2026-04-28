@@ -1,0 +1,29 @@
+[INFO ] 2026-04-28 10:38:09.566 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:38:12.784 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:38:12.885 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:38:13.157 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:38:13.443 [main] demotest - Page title is: Account Login
+[INFO ] 2026-04-28 10:38:13.463 [main] demotest - Closing browser
+[INFO ] 2026-04-28 10:39:03.438 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:39:05.911 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:39:06.022 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:39:06.293 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:39:06.594 [main] demotest - Page title is: Account Login
+[INFO ] 2026-04-28 10:39:06.604 [main] demotest - Closing browser
+[INFO ] 2026-04-28 10:46:41.724 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:46:44.200 [main] demolistener - loginTest test started
+[INFO ] 2026-04-28 10:46:44.210 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:46:44.311 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:46:44.558 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:46:44.865 [main] demotest - Page title is: Account Login
+[INFO ] 2026-04-28 10:46:44.872 [main] demolistener - Test PASSED: loginTest
+[INFO ] 2026-04-28 10:46:44.874 [main] demotest - Closing browser
+[INFO ] 2026-04-28 10:50:46.860 [main] demotest - Launching browser
+[INFO ] 2026-04-28 10:50:49.306 [main] demolistenerfail - loginTest test started
+[INFO ] 2026-04-28 10:50:49.316 [main] demotest - Clicking My Account
+[INFO ] 2026-04-28 10:50:49.451 [main] demotest - Clicking Login
+[INFO ] 2026-04-28 10:50:49.721 [main] demotest - Entering credentials
+[INFO ] 2026-04-28 10:50:50.062 [main] demotest - Page title is: Account Login
+[ERROR] 2026-04-28 10:50:50.080 [main] demolistenerfail - Test FAILED: loginTest
+[INFO ] 2026-04-28 10:50:53.778 [main] demolistenerfail - Screenshot saved at: C:\Users\Subha Shree\git\testng_Listeners\TestNG_Listeners/screenshots/loginTest.png
+[INFO ] 2026-04-28 10:50:53.779 [main] demotest - Closing browser
